@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EF53F03150BC7480055962A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF53F02150BC7480055962A /* UIKit.framework */; };
+		5EF53F05150BC7480055962A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF53F04150BC7480055962A /* Foundation.framework */; };
+		5EF53F07150BC7480055962A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF53F06150BC7480055962A /* CoreGraphics.framework */; };
+		5EF53F0D150BC7480055962A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF53F0B150BC7480055962A /* InfoPlist.strings */; };
+		5EF53F0F150BC7480055962A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF53F0E150BC7480055962A /* main.m */; };
+		5EF53F13150BC7480055962A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF53F12150BC7480055962A /* AppDelegate.m */; };
+		5EF53F22150BCAB00055962A /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF53F20150BCAB00055962A /* HomeController.m */; };
+		5EF53F23150BCAB00055962A /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF53F21150BCAB00055962A /* HomeController.xib */; };
+		5EF53F28150BD20C0055962A /* NewTodoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF53F26150BD20C0055962A /* NewTodoController.m */; };
+		5EF53F29150BD20C0055962A /* NewTodoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF53F27150BD20C0055962A /* NewTodoController.xib */; };
+		5EF53F2C150BDD830055962A /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF53F2B150BDD830055962A /* Todo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EF53EFE150BC7480055962A /* todothingy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todothingy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF53F02150BC7480055962A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EF53F04150BC7480055962A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EF53F06150BC7480055962A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EF53F0A150BC7480055962A /* todothingy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "todothingy-Info.plist"; sourceTree = "<group>"; };
+		5EF53F0C150BC7480055962A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EF53F0E150BC7480055962A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EF53F10150BC7480055962A /* todothingy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "todothingy-Prefix.pch"; sourceTree = "<group>"; };
+		5EF53F11150BC7480055962A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5EF53F12150BC7480055962A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5EF53F1F150BCAB00055962A /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		5EF53F20150BCAB00055962A /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		5EF53F21150BCAB00055962A /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		5EF53F25150BD20C0055962A /* NewTodoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTodoController.h; sourceTree = "<group>"; };
+		5EF53F26150BD20C0055962A /* NewTodoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTodoController.m; sourceTree = "<group>"; };
+		5EF53F27150BD20C0055962A /* NewTodoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTodoController.xib; sourceTree = "<group>"; };
+		5EF53F2A150BDD830055962A /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		5EF53F2B150BDD830055962A /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EF53EFB150BC7480055962A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF53F03150BC7480055962A /* UIKit.framework in Frameworks */,
+				5EF53F05150BC7480055962A /* Foundation.framework in Frameworks */,
+				5EF53F07150BC7480055962A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EF53EF3150BC7470055962A = {
+			isa = PBXGroup;
+			children = (
+				5EF53F08150BC7480055962A /* todothingy */,
+				5EF53F01150BC7480055962A /* Frameworks */,
+				5EF53EFF150BC7480055962A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EF53EFF150BC7480055962A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF53EFE150BC7480055962A /* todothingy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF53F01150BC7480055962A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF53F02150BC7480055962A /* UIKit.framework */,
+				5EF53F04150BC7480055962A /* Foundation.framework */,
+				5EF53F06150BC7480055962A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EF53F08150BC7480055962A /* todothingy */ = {
+			isa = PBXGroup;
+			children = (
+				5EF53F11150BC7480055962A /* AppDelegate.h */,
+				5EF53F12150BC7480055962A /* AppDelegate.m */,
+				5EF53F1F150BCAB00055962A /* HomeController.h */,
+				5EF53F20150BCAB00055962A /* HomeController.m */,
+				5EF53F25150BD20C0055962A /* NewTodoController.h */,
+				5EF53F26150BD20C0055962A /* NewTodoController.m */,
+				5EF53F2D150BDDED0055962A /* Models */,
+				5EF53F24150BD01D0055962A /* Nibs */,
+				5EF53F09150BC7480055962A /* Supporting Files */,
+			);
+			path = todothingy;
+			sourceTree = "<group>";
+		};
+		5EF53F09150BC7480055962A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EF53F0A150BC7480055962A /* todothingy-Info.plist */,
+				5EF53F0B150BC7480055962A /* InfoPlist.strings */,
+				5EF53F0E150BC7480055962A /* main.m */,
+				5EF53F10150BC7480055962A /* todothingy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EF53F24150BD01D0055962A /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				5EF53F21150BCAB00055962A /* HomeController.xib */,
+				5EF53F27150BD20C0055962A /* NewTodoController.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		5EF53F2D150BDDED0055962A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EF53F2A150BDD830055962A /* Todo.h */,
+				5EF53F2B150BDD830055962A /* Todo.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EF53EFD150BC7480055962A /* todothingy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF53F1C150BC7480055962A /* Build configuration list for PBXNativeTarget "todothingy" */;
+			buildPhases = (
+				5EF53EFA150BC7480055962A /* Sources */,
+				5EF53EFB150BC7480055962A /* Frameworks */,
+				5EF53EFC150BC7480055962A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todothingy;
+			productName = todothingy;
+			productReference = 5EF53EFE150BC7480055962A /* todothingy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EF53EF5150BC7470055962A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5EF53EF8150BC7470055962A /* Build configuration list for PBXProject "todothingy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EF53EF3150BC7470055962A;
+			productRefGroup = 5EF53EFF150BC7480055962A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EF53EFD150BC7480055962A /* todothingy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EF53EFC150BC7480055962A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF53F0D150BC7480055962A /* InfoPlist.strings in Resources */,
+				5EF53F23150BCAB00055962A /* HomeController.xib in Resources */,
+				5EF53F29150BD20C0055962A /* NewTodoController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EF53EFA150BC7480055962A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF53F0F150BC7480055962A /* main.m in Sources */,
+				5EF53F13150BC7480055962A /* AppDelegate.m in Sources */,
+				5EF53F22150BCAB00055962A /* HomeController.m in Sources */,
+				5EF53F28150BD20C0055962A /* NewTodoController.m in Sources */,
+				5EF53F2C150BDD830055962A /* Todo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EF53F0B150BC7480055962A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EF53F0C150BC7480055962A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EF53F1A150BC7480055962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EF53F1B150BC7480055962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EF53F1D150BC7480055962A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "todothingy/todothingy-Prefix.pch";
+				INFOPLIST_FILE = "todothingy/todothingy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EF53F1E150BC7480055962A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "todothingy/todothingy-Prefix.pch";
+				INFOPLIST_FILE = "todothingy/todothingy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EF53EF8150BC7470055962A /* Build configuration list for PBXProject "todothingy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF53F1A150BC7480055962A /* Debug */,
+				5EF53F1B150BC7480055962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF53F1C150BC7480055962A /* Build configuration list for PBXNativeTarget "todothingy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF53F1D150BC7480055962A /* Debug */,
+				5EF53F1E150BC7480055962A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EF53EF5150BC7470055962A /* Project object */;
+}
